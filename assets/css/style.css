@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #fcfcfc;
+}
+
+.apresentacao {
+    margin: 10% 15% 0% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 595px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo-titulo {
+    font-size: 36px;
+}
+
+.apresentacao__conteudo__titulo__texto-destaque,
+.apresentacao__conteudo__texto-tecnologias {
+    color: #07d490;
+}
+
+.apresentacao__conteudo-frase {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.apresentacao__conteudo__texto-tecnologias {
+    font-weight: bolder;
+}
+
+.apresentacao__grupo-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__grupo-links__link {
+    background-color: #07d490;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0px;
+    color: #000000;
+}
